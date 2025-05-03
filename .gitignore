@@ -3,6 +3,7 @@
 .idea/
 .vscode/
 *.sqlite3
+.DS_Store
 
 # Environment variables and secrets
 .env
