@@ -3,6 +3,7 @@ applications:
 - name: travel-advisor
   path: src/TravelAdvisor.Web/bin/Release/net9.0/linux-x64/publish
   memory: 512M
+  random-route: true
   buildpacks:
     - dotnet_core_buildpack
   env:
@@ -10,3 +11,4 @@ applications:
     DOTNET_CLI_TELEMETRY_OPTOUT: 1
     DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
     DOTNET_NOLOGO: true
+    GOOGLEMAPS__APIKEY: AIzaSyBjPDJAln397rRvCVRJSzXfRIYKneAFsdw
